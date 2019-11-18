@@ -1,2 +1,5 @@
 colorama
 requests
+twisted
+txZMQ
+napalm
