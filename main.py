@@ -31,6 +31,7 @@ def menu():
     print(item('11'), 'Subdomain Scanner')
     print(item('12'), 'E-mail Address Checker')
     print(item('13'), 'Content Management System Checker')
+    print(item('14'), 'Reverse IP')
     number = input('\n' + item('-') + '  Choose : ')
     if number == '01':
         banner()
@@ -117,7 +118,11 @@ def menu():
         banner()
         cms(site)
         enter()
-
+    if number == '14':
+        banner()
+        site = input(item() + 'Enter IP : ')
+        FindIPaddressandemailserver(site)
+        enter()
 
 def Websiteinformation(siteurl):
     url = 'https://myip.ms/' + siteurl
