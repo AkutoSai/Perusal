@@ -9,6 +9,8 @@ import socket
 from time import sleep
 import requests
 from colorama import Fore
+from colorama import init
+from termcolor import colored
 import config
 
 
@@ -32,6 +34,7 @@ def menu():
     print(item('12'), 'E-mail Address Checker')
     print(item('13'), 'Content Management System Checker')
     print(item('14'), 'Reverse IP')
+    
     number = input('\n' + item('-') + '  Choose : ')
     if number == '01':
         banner()
