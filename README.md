@@ -15,5 +15,6 @@ I recommend you tu use Anaconda Spyder IDE
 **Important Note:**
 
 --> Some of the features might not work because of invalid api key.
+
 --> This tool is still in Beta Stage. More feature will be added soon.
 
