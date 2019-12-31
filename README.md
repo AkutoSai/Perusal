@@ -13,6 +13,7 @@ I recommend you tu use Anaconda Spyder IDE
 './main.py' or 'python main.py'
 
 **Important Note:**
+
 --> Some of the features might not work because of invalid api key.
 --> This tool is still in Beta Stage. More feature will be added soon.
 
