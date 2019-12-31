@@ -1,5 +1,7 @@
 colorama
 requests
+PyYAML==5.1
 twisted
 txZMQ
 napalm
+
