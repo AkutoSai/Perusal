@@ -20,19 +20,19 @@ def banner():
 
 
 def menu():
-    print(item('01'), 'Website Information')
-    print(item('02'), 'Phone Number Information')
+    print(item('01'), 'Website Info')
+    print(item('02'), 'Phone Number Info')
     print(item('03'), 'Find IP Address And E-mail Server')
-    print(item('04'), 'Domain Whois Lookup ')
+    print(item('04'), 'Whois Lookup ')
     print(item('05'), 'Find Website/IP Address Location')
     print(item('06'), 'Bypass CloudFlare')
-    print(item('07'), 'Domain Age Checker')
+    print(item('07'), 'Domain Age Check')
     print(item('08'), 'User Agent Info')
-    print(item('09'), 'Check Active Services On Resource')
+    print(item('09'), 'Check Basic Active Ports')
     print(item('10'), 'Credit Card Bin Checker')
     print(item('11'), 'Subdomain Scanner')
-    print(item('12'), 'E-mail Address Checker')
-    print(item('13'), 'Content Management System Checker')
+    print(item('12'), 'E-mail Address Check')
+    print(item('13'), 'CMS Checker')
     print(item('14'), 'Reverse IP')
     
     number = input('\n' + item('-') + '  Choose : ')
