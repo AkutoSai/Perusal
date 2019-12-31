@@ -1,12 +1,12 @@
 # http://apilayer.net
-apilayerkey = ''
+ #apilayerkey = ''
 
 # http://www.whoisxmlapi.com
-whoislogin = ''
-whoispassw = ''
+ #whoislogin = ''
+ #whoispassw = ''
 
 # https://useragentapi.com
-useragentapikey = ''
+ #useragentapikey = ''
 
 # https://whatcms.org
-whatcmskey = ''
+ #whatcmskey = ''
