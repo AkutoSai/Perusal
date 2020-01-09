@@ -1,10 +1,8 @@
 #!/usr/bin/python
-# -*- coding: UTF-8 -*-
 
-
-import json
 import os
 import re
+import json
 import socket
 from time import sleep
 import requests
