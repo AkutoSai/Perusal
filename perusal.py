@@ -11,6 +11,8 @@ from colorama import init
 from termcolor import colored
 import config
 
+
+    
 def menu():
     print(item('01'), 'Website Info')
     print(item('02'), 'Phone Number Info')
@@ -26,52 +28,52 @@ def menu():
     print(item('12'), 'E-mail Address Check')
     print(item('13'), 'CMS Checker')
     print(item('14'), 'Reverse IP')
-    
+   
     number = input('\n' + item('-') + '  Choose : ')
     if number == '01':
-        banner()
+        
         site = input(item() + ' Enter Website : ')
-        banner()
+        
         Websiteinformation(site)
         enter()
     if number == '02':
-        banner()
+        
         num = input(item() + ' Enter Phone Number : + ')
-        banner()
+        
         Phonenumberinformation(num)
         enter()
     if number == '03':
-        banner()
+        
         site = input(item() + ' Enter Website : ')
-        banner()
+        
         FindIPaddressandemailserver(site)
         enter()
     if number == '04':
-        banner()
+        
         site = input(item() + ' Enter Website : ')
-        banner()
+        
         Domainwhoislookup(site)
         enter()
     if number == '05':
-        banner()
+        
         site = input(item() + ' Enter Website/IP : ')
-        banner()
+        
         Findwebsitelocation(site)
         enter()
     if number == '06':
-        banner()
+        
         site = input(item() + ' Enter Website : ')
-        banner()
+        
         CloudFlare(site)
         enter()
     if number == '07':
-        banner()
+        
         site = input(item() + ' Enter Website : ')
-        banner()
+        
         DomainAgeChecker(site)
         enter()
     if number == '08':
-        banner()
+        
         useragent = input(item() + ' Enter User Agent : ')
         useragent = useragent.replace('/', '%2F')
         useragent = useragent.replace(' ', '%20')
@@ -80,41 +82,41 @@ def menu():
         useragent = useragent.replace(':', '%3A')
         useragent = useragent.replace(')', '%29')
         useragent = useragent.replace(',', '%2C')
-        banner()
+        
         UserAgent(useragent)
         enter()
     if number == '09':
-        banner()
+        
         site = input(item() + ' Enter Website/IP : ')
-        banner()
+        
         scanports(site)
         enter()
     if number == '10':
-        banner()
+        
         bin = input(item() + ' Enter First 6 Digits Of A Credit Card Number : ')
-        banner()
+        
         BIN(bin)
         enter()
     if number == '11':
-        banner()
+        
         site = input(item() + ' Enter Website : ')
-        banner()
+        
         subdomain(site)
         enter()
     if number == '12':
-        banner()
+        
         emailadr = input(item() + ' Enter E-mail : ')
-        banner()
+        
         email(emailadr)
         enter()
     if number == '13':
-        banner()
+        
         site = input(item() + ' Enter Website : ')
-        banner()
+        
         cms(site)
         enter()
     if number == '14':
-        banner()
+        
         site = input(item() + 'Enter IP : ')
         FindIPaddressandemailserver(site)
         enter()
@@ -567,7 +569,7 @@ def errormsg():
 def enter():
     print()
     input(item() + f' Press {Fore.RED}[{Fore.WHITE}ENTER{Fore.RED}]{Fore.WHITE} Key To Continue')
-    banner()
+    
     menu()
 
 
@@ -578,5 +580,5 @@ def item(symbol = None):
 
 
 if __name__ == "__main__":
-    banner()
+    
     menu()
