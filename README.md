@@ -10,7 +10,7 @@ I recommend you tu use Anaconda Spyder IDE
   Download Link: https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
   
 # To execute simply use:
-'./main.py' or 'python main.py'
+'./perusal.py' or 'python perusal.py'
 
 **Important Note:**
 
