@@ -6,6 +6,7 @@ pip install -r requirements.txt
 
 # 'Fore' Error
 This error may occur in Linux Parrot 4.7
+
 I recommend you tu use Anaconda Spyder IDE
   Download Link: https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
   
